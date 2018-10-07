@@ -21,4 +21,8 @@ npm install
 ````
 ng serve --open 0  
 ````
-### 添加Material
+### 添加Material模块
+
+````
+npm install --save @angular/material @angular/cdk @angular/animations
+````
