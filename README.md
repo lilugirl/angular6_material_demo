@@ -28,6 +28,7 @@ ng serve --open 0
 npm install --save @angular/material @angular/cdk @angular/animations
 ````
 ####  Step 2: Configure animations
+在 app.module.ts
 ````
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
@@ -39,4 +40,20 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 export class PizzaPartyAppModule { }
 ````
 #### Step 3: Import the component modules
+在 app.module.ts
+````
+import {MatButtonModule, MatCheckboxModule} from '@angular/material';
+
+@NgModule({
+  ...
+  imports: [MatButtonModule, MatCheckboxModule],
+  ...
+})
+export class PizzaPartyAppModule { }
+````
+#### Step 4: Include a theme
+在index.html
+````
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+````
 
