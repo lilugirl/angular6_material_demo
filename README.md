@@ -38,3 +38,5 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 })
 export class PizzaPartyAppModule { }
 ````
+#### Step 3: Import the component modules
+
