@@ -22,7 +22,12 @@ npm install
 ng serve --open 0  
 ````
 ### 添加Material模块
+#### Step 1: Install Angular Material, Angular CDK and Angular Animations
 
+````
+npm install --save @angular/material @angular/cdk @angular/animations
+````
+####  Step 2: Configure animations
 ````
 npm install --save @angular/material @angular/cdk @angular/animations
 ````
