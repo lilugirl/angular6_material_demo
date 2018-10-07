@@ -9,3 +9,9 @@ npm install @angular/cli
 ````
 ng new angular6_material_demo --sass
 ````
+````
+cd angular6_material_demo
+````
+````
+npm install
+````
