@@ -16,4 +16,9 @@ cd angular6_material_demo
 ````
 npm install
 ````
+
+测试一下看看项目能不能跑通
+````
+ng serve --open 0  
+````
 ### 添加Material
