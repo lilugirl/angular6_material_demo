@@ -56,4 +56,7 @@ export class PizzaPartyAppModule { }
 ````
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 ````
-
+### Step 5: Gesture Support
+````
+npm install --save hammerjs
+````
