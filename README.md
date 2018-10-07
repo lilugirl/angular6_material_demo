@@ -74,3 +74,7 @@ ng generate @angular/material:material-nav --name <component-name>
 ````
 ng generate @angular/material:material-dashboard --name <component-name>
 ````
+#### Table Schematic
+````
+ng generate @angular/material:material-table --name <component-name>
+````
