@@ -4,5 +4,8 @@
 ## 项目创建步骤
 
 ````
-npm install -g @angular/cli
+npm install @angular/cli
+````
+````
+ng new angular6_material_demo --sass
 ````
