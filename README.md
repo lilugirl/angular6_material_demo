@@ -65,3 +65,12 @@ npm install --save hammerjs
 ````
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 ````
+### 使用Schematics命令快速生成文件
+#### 导航 Schematic
+````
+ng generate @angular/material:material-nav --name <component-name>
+````
+#### Dashboard Schematic
+````
+ng generate @angular/material:material-dashboard --name <component-name>
+````
