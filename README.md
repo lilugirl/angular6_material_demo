@@ -52,7 +52,7 @@ import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 export class PizzaPartyAppModule { }
 ````
 #### Step 4: Include a theme
-在index.html
+在style.css
 ````
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 ````
