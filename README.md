@@ -61,3 +61,7 @@ export class PizzaPartyAppModule { }
 npm install --save hammerjs
 ````
 #### Step 6 (Optional): Add Material Icons
+在index.html
+````
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+````
