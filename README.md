@@ -29,5 +29,12 @@ npm install --save @angular/material @angular/cdk @angular/animations
 ````
 ####  Step 2: Configure animations
 ````
-npm install --save @angular/material @angular/cdk @angular/animations
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
+@NgModule({
+  ...
+  imports: [BrowserAnimationsModule],
+  ...
+})
+export class PizzaPartyAppModule { }
 ````
